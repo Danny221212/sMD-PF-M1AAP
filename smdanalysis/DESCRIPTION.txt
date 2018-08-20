@@ -1,0 +1,28 @@
+Package: smdanalysis
+Title: Generate Ligand Occupany Maps and Ligand Interaction Networks
+Version: 0.1
+Authors@R: person("Daniel Stephen", "Moore", email = "daniel.moore@qub.ac.uk",
+                  role = c("aut", "cre"))
+Maintainer: Daniel S Moore
+Description: This package allows aggregation of multiple Steered Molecular Dyanmics (sMD) or MD simulations to create a licand occupancy map and ligand interaction networks. Currently the package was designed to work with .st2 files dervied from Desmond for Schrodinger. This is currently an alpha version, please contact the author for help associated with creating the Ligand Interaction Network.
+Depends: R (>= 3.1.0), dplyr,
+    igraph,
+    plyr,
+    gplots,
+    RColorBrewer,
+    gtools,
+    plot3D,
+    rgexf,
+    lattice
+LazyData: true
+Imports:
+    dplyr,
+    igraph,
+    plyr,
+    gplots,
+    RColorBrewer,
+    gtools,
+    plot3D,
+    rgexf,
+    lattice
+    
