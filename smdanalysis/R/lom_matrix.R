@@ -6,7 +6,6 @@
 #' @param pmat A 4 x 4 Viewing Matrix used to transform the 3D coordinates to 2D. Callend by readCOM() function
 #' @param spacing the size of the returend matrix ( 75 * 75 is the default)
 #' @return Matrix of count values used for heatmap generation
-#' @export
 #'
 #' Example
 #'

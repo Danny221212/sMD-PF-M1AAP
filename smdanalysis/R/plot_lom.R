@@ -6,7 +6,6 @@
 #'
 #' @param lom the ligand occupancy map matrix derived using the lom_matrix() function
 #' @return NULL; Plots lom as a heatmap
-#' @export
 #'
 #' Example
 #'
