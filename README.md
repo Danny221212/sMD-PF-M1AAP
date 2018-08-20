@@ -12,11 +12,11 @@ To install this package:
 1) download or clone the repo
 2) change to the directory
 3) in an R console type:
-`{r}
+
        install.packages("./smdanalysis/", repos = NULL, type = "source")
-```
+
 ### Creating a Ligand Occupancy Map
-`{r}
+`
 library(smdanalysis)
 
 pmat <- matrix(rep(0, 16), ncol = 4)
