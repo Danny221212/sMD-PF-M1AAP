@@ -16,7 +16,7 @@ To install this package:
        install.packages("./smdanalysis/", repos = NULL, type = "source")
 
 ### Creating a Ligand Occupancy Map
-`
+```
 library(smdanalysis)
 
 pmat <- matrix(rep(0, 16), ncol = 4)
